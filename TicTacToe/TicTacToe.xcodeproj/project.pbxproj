@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		91CCE5541C484DD3000C938E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CCE5531C484DD3000C938E /* main.m */; };
 		91CCE5571C484DD3000C938E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CCE5561C484DD3000C938E /* AppDelegate.m */; };
-		91CCE55A1C484DD3000C938E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CCE5591C484DD3000C938E /* ViewController.m */; };
 		91CCE55D1C484DD3000C938E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CCE55B1C484DD3000C938E /* Main.storyboard */; };
 		91CCE55F1C484DD3000C938E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CCE55E1C484DD3000C938E /* Assets.xcassets */; };
 		91CCE5621C484DD3000C938E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CCE5601C484DD3000C938E /* LaunchScreen.storyboard */; };
+		91CCE56B1C484DF6000C938E /* TicTacToeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CCE56A1C484DF6000C938E /* TicTacToeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		91CCE5531C484DD3000C938E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91CCE5551C484DD3000C938E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91CCE5561C484DD3000C938E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		91CCE5581C484DD3000C938E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		91CCE5591C484DD3000C938E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		91CCE55C1C484DD3000C938E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91CCE55E1C484DD3000C938E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91CCE5611C484DD3000C938E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91CCE5631C484DD3000C938E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CCE5691C484DF6000C938E /* TicTacToeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeViewController.h; sourceTree = "<group>"; };
+		91CCE56A1C484DF6000C938E /* TicTacToeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +58,13 @@
 		91CCE5511C484DD3000C938E /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
-				91CCE5551C484DD3000C938E /* AppDelegate.h */,
-				91CCE5561C484DD3000C938E /* AppDelegate.m */,
-				91CCE5581C484DD3000C938E /* ViewController.h */,
-				91CCE5591C484DD3000C938E /* ViewController.m */,
+				91CCE5691C484DF6000C938E /* TicTacToeViewController.h */,
+				91CCE56A1C484DF6000C938E /* TicTacToeViewController.m */,
 				91CCE55B1C484DD3000C938E /* Main.storyboard */,
 				91CCE55E1C484DD3000C938E /* Assets.xcassets */,
 				91CCE5601C484DD3000C938E /* LaunchScreen.storyboard */,
+				91CCE5551C484DD3000C938E /* AppDelegate.h */,
+				91CCE5561C484DD3000C938E /* AppDelegate.m */,
 				91CCE5631C484DD3000C938E /* Info.plist */,
 				91CCE5521C484DD3000C938E /* Supporting Files */,
 			);
@@ -149,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91CCE55A1C484DD3000C938E /* ViewController.m in Sources */,
 				91CCE5571C484DD3000C938E /* AppDelegate.m in Sources */,
 				91CCE5541C484DD3000C938E /* main.m in Sources */,
+				91CCE56B1C484DF6000C938E /* TicTacToeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

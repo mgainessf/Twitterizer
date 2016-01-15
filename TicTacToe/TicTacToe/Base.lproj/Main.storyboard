@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tic Tac Toe View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TicTacToeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +16,137 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vva-OA-lBg">
+                                <rect key="frame" x="20" y="28" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="129" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonTappedOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r3v-BM-gma"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnf-SD-gFV">
+                                <rect key="frame" x="20" y="159" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="260" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonTappedFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="14M-mW-el1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwe-rx-WDd">
+                                <rect key="frame" x="20" y="299" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="400" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonTappedSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gXU-Dj-Odc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U85-vu-eFQ">
+                                <rect key="frame" x="265" y="28" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="165" y="129" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FhL-r7-vdg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dct-qK-8dt">
+                                <rect key="frame" x="265" y="159" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="165" y="260" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonTappedFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aeR-lR-YS0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxT-qu-jvM">
+                                <rect key="frame" x="265" y="299" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="165" y="400" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonTappedEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H7a-hR-bP1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMW-9Q-LTb">
+                                <rect key="frame" x="265" y="28" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="310" y="129" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonTappedThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ikg-to-NfW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7p-mZ-873">
+                                <rect key="frame" x="265" y="159" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="310" y="260" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonTappedSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cyl-gc-eRt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qrs-vP-WtR">
+                                <rect key="frame" x="265" y="299" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="310" y="400" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonTappedNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bqE-UU-Pd6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9I-uF-Lv2">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="28" width="360" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="fMW-9Q-LTb"/>
+                                <exclude reference="J7p-mZ-873"/>
+                                <exclude reference="Qrs-vP-WtR"/>
+                                <exclude reference="v9I-uF-Lv2"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="fMW-9Q-LTb"/>
+                                <include reference="J7p-mZ-873"/>
+                                <include reference="Qrs-vP-WtR"/>
+                                <include reference="v9I-uF-Lv2"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="whichPlayerLabel" destination="v9I-uF-Lv2" id="YPT-OT-Bbi"/>
+                        <outletCollection property="buttonCollection" destination="Vva-OA-lBg" id="OGd-4m-aQo"/>
+                        <outletCollection property="buttonCollection" destination="U85-vu-eFQ" id="Ldd-zx-5fb"/>
+                        <outletCollection property="buttonCollection" destination="fMW-9Q-LTb" id="H6z-SK-6bl"/>
+                        <outletCollection property="buttonCollection" destination="Pnf-SD-gFV" id="okX-2H-j3E"/>
+                        <outletCollection property="buttonCollection" destination="dct-qK-8dt" id="rJJ-j5-7ja"/>
+                        <outletCollection property="buttonCollection" destination="J7p-mZ-873" id="usX-zq-gRf"/>
+                        <outletCollection property="buttonCollection" destination="Jwe-rx-WDd" id="28h-6J-aEL"/>
+                        <outletCollection property="buttonCollection" destination="nxT-qu-jvM" id="WEH-r7-Yqm"/>
+                        <outletCollection property="buttonCollection" destination="Qrs-vP-WtR" id="2mn-ci-isM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
