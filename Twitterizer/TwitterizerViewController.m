@@ -1,7 +1,6 @@
 //
 //  TwitterizerViewController.m
 //  Twitterizer
-//
 //  Created by Aaron B on 1/13/16.
 //  Copyright © 2016 mobile makers. All rights reserved.
 //
@@ -36,19 +35,24 @@
             return YES;
         }
     }
-    else if (lengthOfTextView > 139){
+    else if (lengthOfTextView > 139 && range.length == 0){
+        
         return NO;
     }
     return YES;
 }
 
 
+
+
 - (IBAction)hashTagButton:(id)sender {
+    
     NSUInteger textLength = self.textView.text.length;
     NSString *hashtagText = self.textView.text;
     NSString *spaceString = @" ";
     NSString *hashString = @"#";
     int num = 0;
+    
     self.buttonPressed++;
     if (self.buttonPressed == 1){
         for (int i = 0; i < textLength; i++) {
@@ -75,7 +79,6 @@
         }
     self.textView.text = hashtagText;
     NSLog(@"%i", self.buttonPressed);
-    
 }
 
 

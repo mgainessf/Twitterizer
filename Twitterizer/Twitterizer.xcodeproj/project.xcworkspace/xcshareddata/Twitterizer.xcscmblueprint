@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4A72679193A8720BCC1414C481EA354BA355E909",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "24B2B04B4A9076C24834D597411232D8452B24C5" : 0,
+    "4A72679193A8720BCC1414C481EA354BA355E909" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F9299C77-8357-4876-B742-8E234665222B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "24B2B04B4A9076C24834D597411232D8452B24C5" : "",
+    "4A72679193A8720BCC1414C481EA354BA355E909" : "Twitterizer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Twitterizer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Twitterizer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mgainessf\/Twitterizer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "24B2B04B4A9076C24834D597411232D8452B24C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bikisDesign\/twiterizer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A72679193A8720BCC1414C481EA354BA355E909"
+    }
+  ]
+}
