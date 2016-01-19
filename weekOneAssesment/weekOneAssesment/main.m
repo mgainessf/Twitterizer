@@ -1,9 +1,8 @@
-
 //
 //  main.m
-//  TicTacToe
+//  weekOneAssesment
 //
-//  Created by Aaron B on 1/14/16.
+//  Created by Aaron B on 1/15/16.
 //  Copyright © 2016 Bikis Design. All rights reserved.
 //
 
