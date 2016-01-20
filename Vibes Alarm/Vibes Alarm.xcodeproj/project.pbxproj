@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91E535EC1C4EA3ED0013B8D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E535EB1C4EA3ED0013B8D1 /* main.m */; };
+		91E535EF1C4EA3ED0013B8D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E535EE1C4EA3ED0013B8D1 /* AppDelegate.m */; };
+		91E535F51C4EA3ED0013B8D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E535F31C4EA3ED0013B8D1 /* Main.storyboard */; };
+		91E535F71C4EA3EE0013B8D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E535F61C4EA3EE0013B8D1 /* Assets.xcassets */; };
+		91E535FA1C4EA3EE0013B8D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E535F81C4EA3EE0013B8D1 /* LaunchScreen.storyboard */; };
+		91E536031C4EA4020013B8D1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E536021C4EA4020013B8D1 /* RootViewController.m */; };
+		91E536311C4EE3DF0013B8D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E536301C4EE3DF0013B8D1 /* AVFoundation.framework */; };
+		91E536331C4EE3EA0013B8D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E536321C4EE3EA0013B8D1 /* CoreGraphics.framework */; };
+		91E536351C4EE3F10013B8D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E536341C4EE3F10013B8D1 /* UIKit.framework */; };
+		91E536371C4EE3F90013B8D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E536361C4EE3F90013B8D1 /* Foundation.framework */; };
+		91E536691C4F356C0013B8D1 /* SongInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E536681C4F356C0013B8D1 /* SongInformation.m */; };
+		91E5366B1C4F37750013B8D1 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 91E5366A1C4F37750013B8D1 /* Sounds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91E535E71C4EA3ED0013B8D1 /* Vibes Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vibes Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E535EB1C4EA3ED0013B8D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91E535ED1C4EA3ED0013B8D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91E535EE1C4EA3ED0013B8D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91E535F41C4EA3ED0013B8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91E535F61C4EA3EE0013B8D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91E535F91C4EA3EE0013B8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91E535FB1C4EA3EE0013B8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E536011C4EA4020013B8D1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		91E536021C4EA4020013B8D1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		91E536301C4EE3DF0013B8D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		91E536321C4EE3EA0013B8D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91E536341C4EE3F10013B8D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91E536361C4EE3F90013B8D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91E536671C4F356C0013B8D1 /* SongInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SongInformation.h; path = ../SongInformation.h; sourceTree = "<group>"; };
+		91E536681C4F356C0013B8D1 /* SongInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SongInformation.m; path = ../SongInformation.m; sourceTree = "<group>"; };
+		91E5366A1C4F37750013B8D1 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../Sounds; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E535E41C4EA3ED0013B8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E536371C4EE3F90013B8D1 /* Foundation.framework in Frameworks */,
+				91E536351C4EE3F10013B8D1 /* UIKit.framework in Frameworks */,
+				91E536331C4EE3EA0013B8D1 /* CoreGraphics.framework in Frameworks */,
+				91E536311C4EE3DF0013B8D1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E535DE1C4EA3ED0013B8D1 = {
+			isa = PBXGroup;
+			children = (
+				91E536361C4EE3F90013B8D1 /* Foundation.framework */,
+				91E536341C4EE3F10013B8D1 /* UIKit.framework */,
+				91E536321C4EE3EA0013B8D1 /* CoreGraphics.framework */,
+				91E536301C4EE3DF0013B8D1 /* AVFoundation.framework */,
+				91E535E91C4EA3ED0013B8D1 /* Vibes Alarm */,
+				91E535E81C4EA3ED0013B8D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91E535E81C4EA3ED0013B8D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E535E71C4EA3ED0013B8D1 /* Vibes Alarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91E535E91C4EA3ED0013B8D1 /* Vibes Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				91E535F31C4EA3ED0013B8D1 /* Main.storyboard */,
+				91E536011C4EA4020013B8D1 /* RootViewController.h */,
+				91E536021C4EA4020013B8D1 /* RootViewController.m */,
+				91E5366A1C4F37750013B8D1 /* Sounds */,
+				91E536671C4F356C0013B8D1 /* SongInformation.h */,
+				91E536681C4F356C0013B8D1 /* SongInformation.m */,
+				91E535ED1C4EA3ED0013B8D1 /* AppDelegate.h */,
+				91E535EE1C4EA3ED0013B8D1 /* AppDelegate.m */,
+				91E535F61C4EA3EE0013B8D1 /* Assets.xcassets */,
+				91E535F81C4EA3EE0013B8D1 /* LaunchScreen.storyboard */,
+				91E535FB1C4EA3EE0013B8D1 /* Info.plist */,
+				91E535EA1C4EA3ED0013B8D1 /* Supporting Files */,
+			);
+			path = "Vibes Alarm";
+			sourceTree = "<group>";
+		};
+		91E535EA1C4EA3ED0013B8D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91E535EB1C4EA3ED0013B8D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E535E61C4EA3ED0013B8D1 /* Vibes Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E535FE1C4EA3EE0013B8D1 /* Build configuration list for PBXNativeTarget "Vibes Alarm" */;
+			buildPhases = (
+				91E535E31C4EA3ED0013B8D1 /* Sources */,
+				91E535E41C4EA3ED0013B8D1 /* Frameworks */,
+				91E535E51C4EA3ED0013B8D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vibes Alarm";
+			productName = "Vibes Alarm";
+			productReference = 91E535E71C4EA3ED0013B8D1 /* Vibes Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91E535DF1C4EA3ED0013B8D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bikis Design";
+				TargetAttributes = {
+					91E535E61C4EA3ED0013B8D1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 91E535E21C4EA3ED0013B8D1 /* Build configuration list for PBXProject "Vibes Alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91E535DE1C4EA3ED0013B8D1;
+			productRefGroup = 91E535E81C4EA3ED0013B8D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E535E61C4EA3ED0013B8D1 /* Vibes Alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E535E51C4EA3ED0013B8D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E5366B1C4F37750013B8D1 /* Sounds in Resources */,
+				91E535FA1C4EA3EE0013B8D1 /* LaunchScreen.storyboard in Resources */,
+				91E535F71C4EA3EE0013B8D1 /* Assets.xcassets in Resources */,
+				91E535F51C4EA3ED0013B8D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91E535E31C4EA3ED0013B8D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E535EF1C4EA3ED0013B8D1 /* AppDelegate.m in Sources */,
+				91E536691C4F356C0013B8D1 /* SongInformation.m in Sources */,
+				91E535EC1C4EA3ED0013B8D1 /* main.m in Sources */,
+				91E536031C4EA4020013B8D1 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91E535F31C4EA3ED0013B8D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E535F41C4EA3ED0013B8D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91E535F81C4EA3EE0013B8D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E535F91C4EA3EE0013B8D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91E535FC1C4EA3EE0013B8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91E535FD1C4EA3EE0013B8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E535FF1C4EA3EE0013B8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vibes Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mp-design.Vibes-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91E536001C4EA3EE0013B8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vibes Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mp-design.Vibes-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91E535E21C4EA3ED0013B8D1 /* Build configuration list for PBXProject "Vibes Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E535FC1C4EA3EE0013B8D1 /* Debug */,
+				91E535FD1C4EA3EE0013B8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E535FE1C4EA3EE0013B8D1 /* Build configuration list for PBXNativeTarget "Vibes Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E535FF1C4EA3EE0013B8D1 /* Debug */,
+				91E536001C4EA3EE0013B8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91E535DF1C4EA3ED0013B8D1 /* Project object */;
+}
