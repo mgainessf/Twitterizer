@@ -10,10 +10,6 @@
 #import <AVFoundation/AVFoundation.h>
 #import "SongInformation.h"
 
-@interface RootViewController () <UITableViewDataSource, UITableViewDelegate>
-{
-    AVAudioPlayer *_audioPlayer;
-}
 @property UIBarButtonItem *Play;
 @property UIBarButtonItem *Stop;
 @property UITextField *audioInfo;

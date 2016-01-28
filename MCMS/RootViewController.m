@@ -84,7 +84,6 @@
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     MagicalCreatureViewController *destination = segue.destinationViewController;
     NSIndexPath *currentIndex = [self.tableView indexPathForSelectedRow];
-    destination.creature = self.creatures;
     destination.currentCreatureIndexPath = currentIndex;
     destination.currentCreature = [self.creatures objectAtIndex:currentIndex.row];
 }

@@ -135,7 +135,7 @@
 - (int)getRandNum {
     UInt32 randNum = arc4random_uniform(9);
     if ([self.selectedButtons containsObject:[NSNumber numberWithInt:randNum]]) {
-        return -1;
+        return 1;
     }
     return randNum;
 }

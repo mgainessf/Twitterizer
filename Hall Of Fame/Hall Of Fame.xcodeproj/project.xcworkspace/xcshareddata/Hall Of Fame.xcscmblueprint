@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7471E643A8BF0F666CA11BB72D07F38ACBF23C1A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7471E643A8BF0F666CA11BB72D07F38ACBF23C1A" : 0,
+    "24B2B04B4A9076C24834D597411232D8452B24C5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6A1C2FED-9C5C-4483-B766-7D3421A2D707",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7471E643A8BF0F666CA11BB72D07F38ACBF23C1A" : "Hall%20Of%20Fame\/",
+    "24B2B04B4A9076C24834D597411232D8452B24C5" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hall Of Fame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hall Of Fame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mgainessf\/Twitterizer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "24B2B04B4A9076C24834D597411232D8452B24C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bikisDesign\/HallOfFame.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7471E643A8BF0F666CA11BB72D07F38ACBF23C1A"
+    }
+  ]
+}

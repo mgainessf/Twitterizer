@@ -10,7 +10,6 @@
 #import "Magical Creature.h"
 
 @interface MagicalCreatureViewController : UIViewController
-@property NSMutableArray *creature;
-@property Magical_Creature *currentCreature;
+ @property Magical_Creature *currentCreature;
 @property NSIndexPath *currentCreatureIndexPath;
 @end
